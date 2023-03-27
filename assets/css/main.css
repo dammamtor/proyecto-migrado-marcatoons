@@ -114,6 +114,8 @@ input, select, textarea {
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
+		text-align: center;
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2053,7 +2055,7 @@ input, select, textarea {
 		left: 0;
 		overflow-y: auto;
 		position: fixed;
-		text-align: right;
+		text-align: center;
 		top: 0;
 		width: 375px;
 	}
@@ -2099,6 +2101,9 @@ input, select, textarea {
 		margin: 1.75em 1.5em 1.5em 1.5em;
 		min-height: 48px;
 		cursor: default;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 		#logo h1 {
@@ -2631,3 +2636,5 @@ input, select, textarea {
 				}
 
 	}
+	/*MODIFICACIONES DE EL MAMANI*/
+	
