@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Daniel Mamani Torres">
+    <meta name="description" content="Pagina de noticias sobre deportes al estilo de MARCA">
+    <meta name="keywords" content="Marcatoons,messi,messi en la roja,futbol,ozil,psg,mundial">
+    <meta name="robots" content="all">
+    <title>FORMULARIO</title>
+    <link rel="icon" type="image/png" href="../icons/futbol.png">
+    <link rel="stylesheet" type="text/css" href="../css/style.css"> 
+
+</head>
+<body>
+    <header>
+        <h1>BIENVENIDO A LA PAGINA DE NOTICIAS DEPORTIVAS...</h1>
+        <div class="portadaweb">
+            <picture>
+                <source media="(max-width: 400px)" srcset="../images/Marcatoons-el-mejor-chiquito.jpg">
+                <source media="(min-width: 401px)" srcset="../images/Marcatoons-el-mejor-.jpg">      
+                <img src="../images/Marcatoons-el-mejor-.jpg" alt="Banner de la web de noticias">
+            </picture>
+        </div>
+        <nav>
+            <a class="button" href="../index.html#argentina">ARGENTINA</a>
+            <a class="button" href="../index.html#españa">ESPAÑA</a>
+            <a class="button" href="../index.html#america">AMERICA</a>
+            <a class="button" href="../index.html#europa">EUROPA</a>
+            <a class="button" href="../index.html">FORMULARIO</a>
+        </nav>
+    </header>
+    <main id="formulario"> 
+        <h2>Responde a las siguientes preguntas. ¡Nos gustaría saber tu opinion!</h2>
+        <form action="danieltorres41618@gmail.com" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>¿Quien es mejor?¿Messi o CR7?</legend>
+                <input type="radio" name="goat" id="Messi" value="Messi">
+                <label for="Messi">Messi</label> <br>
+                <input type="radio" name="goat" id="CR7" value="CR7">
+                <label for="CR7">CR7</label> <br>
+                <label for="mensaje">Argumenta el por qué de dicho razonnamiento:<br></label>
+                <textarea name="mensaje" id="mensaje" rows="8" cols="50">Considero que...</textarea><br/>
+                
+                <label for="mejorseleccion">Ahora escoge cual de estas selecciones consideras que es la más grande:</label><br>
+                <select name="mejorseleccion" id="mejorseleccion">
+                    <option value="ov">Seleccion</option>
+                    <optgroup>
+
+                        <option value="es">La Roja</option>
+        
+                        <option value="ur">Uruguay</option>
+        
+                        <option value="ar">Argentina</option>
+        
+                        <option value="br">Brasil</option>
+        
+                        <option value="fr">Francia</option>      
+        
+                    </optgroup>
+                </select><br>
+                <label for="uruguay-estrellas">Escribe cuantas estrellas tiene Uruguay en tu opinion:</label><br>
+                <input type="number" name="uruguay-estrellas" id="uruguay-estrellas" min="2" max="4"><br>
+
+
+
+                <label for="boton">Habiendo contestado todo, envia tus respuestas.</label><br>
+                <input type="submit" name="boton" id="boton" value="Enviar">
+                
+            </fieldset>
+            <fieldset>
+                <label for="range">Indique cuan satisfactoria fue la pagina de noticas</label> <br>
+                <input type="range" id="range" name="range" min="0" max="10" step="1">
+            </fieldset>
+        </form>
+        <a href="../index.html" class="boton-index">
+            <p>Volver al index</p><picture>
+                <source media="(max-width: 400px)" srcset="../images/button-enano.jpg">
+                <source media="(min-width: 401px)" srcset="../images/button.jpg">   
+                <img src="../images/button.jpg" alt="boton volver al index">
+            </picture>
+        </a>
+    </main>
+    <footer>
+        <p>HECHO POR DANIEL MAMANI TORRES</p>
+        <p>Asignatura: Lenguajes de marcas</p>
+        <p>Curso: 2022-2023</p>
+    </footer>
+</body>
+</html>
