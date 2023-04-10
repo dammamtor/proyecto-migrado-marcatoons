@@ -112,7 +112,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: #ffffff;
 		line-height: 1.5em;
 		text-align: center;
 		font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -2137,12 +2137,13 @@ input, select, textarea {
 
 		#nav ul li {
 			padding-left: 0;
+			margin-bottom: 15px;
 		}
 
 			#nav ul li a {
 				display: block;
 				padding: 0.5em 1.5em 0.5em 1.5em;
-				color: rgba(255, 255, 255, 0.5);
+				color: rgba(255, 255, 255, 0.7);
 				text-decoration: none;
 				outline: 0;
 				border: 0;
@@ -2150,6 +2151,10 @@ input, select, textarea {
 				-webkit-transition: none;
 				-ms-transition: none;
 				transition: none;
+				background-color: #be1322; /* Cambiar el color de fondo del botón */
+				border-radius: 25px; /* Agregar bordes redondeados */
+				margin-bottom: 5px; /* Agregar margen inferior para separación mínima entre botones */
+				font-weight: bold; /* Agregar texto en negrita */
 			}
 
 				#nav ul li a span {
@@ -2637,4 +2642,7 @@ input, select, textarea {
 
 	}
 	/*MODIFICACIONES DE EL MAMANI*/
+	#messi img{
+		border-radius: 25px;
+	}
 	
